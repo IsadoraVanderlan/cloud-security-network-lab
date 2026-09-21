@@ -41,7 +41,7 @@ Este laboratório demonstra a aplicação prática de **Network Security** em um
 
 ## 🚀 Demonstração Prática (Execução de Comandos)
 
-> **Nota para o Recrutador:** Abaixo estão demonstradas as validações operacionais diretamente no terminal Ubuntu da instância EC2, comprovando o domínio prático das ferramentas através dos vídeos de demonstração.
+> *Abaixo estão demonstradas as validações operacionais diretamente no terminal Ubuntu da instância EC2, comprovando o domínio prático das ferramentas através dos vídeos de demonstração.*
 
 ---
 
@@ -81,7 +81,7 @@ curl http://127.0.0.1:8080
 curl -I http://localhost
 ```
 
-![Demonstração do Nginx e Reverse Proxy](./assets/02-nginx-reverse-proxy.gif)
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/video%201.mp4)
 *Vídeo 2: Demonstração do serviço em loopback e intercepção do tráfego pelo Reverse Proxy Nginx.*
 
 ---
@@ -164,19 +164,6 @@ Abertura do arquivo `https-analysis.pcap` extraído da EC2 no Wireshark para aud
 
 ![Demonstração do Troubleshooting](./assets/07-troubleshooting-demo.gif)
 *Vídeo 7: Execução da esteira de diagnóstico e correção da falha de conectividade.*
-
----
-
-## 🛠️ Como Replicar este Laboratório
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/cloud-security-network-lab.git
-   ```
-2. Siga os manuais detalhados na pasta `/docs`:
-   - [Configuração de Rede e AWS](./docs/architecture.md)
-   - [Instalação e Hardening do Nginx](./docs/nginx-setup.md)
-   - [Guia de Captura e Análise de Tráfego](./docs/network-analysis.md)
 
 ---
 
