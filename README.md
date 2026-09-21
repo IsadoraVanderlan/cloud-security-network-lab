@@ -80,10 +80,7 @@ curl http://127.0.0.1:8080
 # Validação da resposta HTTP via Proxy na porta 80
 curl -I http://localhost
 ```
-
-<video width="100%" controls>
-  <source src="./Videos Demonstração/video 2.mp4" type="video/mp4">
-</video>
+[![Demonstração do Nginx e Reverse Proxy](./assets/sua-capa-do-video.png)](./Videos%20Demonstração/video%202.mp4)
 
 ---
 
