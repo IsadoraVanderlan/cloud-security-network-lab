@@ -81,8 +81,9 @@ curl http://127.0.0.1:8080
 curl -I http://localhost
 ```
 
-![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/video%201.mp4)
-*Vídeo 2: Demonstração do serviço em loopback e intercepção do tráfego pelo Reverse Proxy Nginx.*
+<video width="100%" controls>
+  <source src="./Videos Demonstração/video 2.mp4" type="video/mp4">
+</video>
 
 ---
 
