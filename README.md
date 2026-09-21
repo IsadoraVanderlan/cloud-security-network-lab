@@ -60,8 +60,7 @@ ip route
 ss -tuln
 ```
 
-![Demonstração do Diagnóstico de Rede](./assets/01-network-diagnosis.gif)
-*Vídeo 1: Validação de interfaces `ip a`, tabela de rotas e varredura local de portas abertas com `ss`.*
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/video-1.gif)
 
 ---
 
