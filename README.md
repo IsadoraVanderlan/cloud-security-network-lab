@@ -51,7 +51,7 @@ ip route
 ss -tuln
 ```
 
-
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/1.gif)
 
 ---
 
