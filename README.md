@@ -60,7 +60,7 @@ ip route
 ss -tuln
 ```
 
-![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/video-1.gif)
+
 
 ---
 
@@ -79,7 +79,7 @@ curl http://127.0.0.1:8080
 # Validação da resposta HTTP via Proxy na porta 80
 curl -I http://localhost
 ```
-[![Demonstração do Nginx e Reverse Proxy](./assets/sua-capa-do-video.png)](./Videos%20Demonstração/video%202.mp4)
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/2.gif)
 
 ---
 
@@ -95,8 +95,7 @@ curl -I https://SEU_DOMINIO
 openssl s_client -connect SEU_DOMINIO:443 -servername SEU_DOMINIO
 ```
 
-![Demonstração de Validação TLS OpenSSL](./assets/03-tls-openssl-check.gif)
-*Vídeo 3: Análise do aperto de mão (Handshake) TLS, cifra negociada e emissor do certificado.*
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/3.gif)
 
 ---
 
@@ -112,8 +111,7 @@ nc -vz IP_PUBLICO 443
 nc -vz IP_PUBLICO 8080
 ```
 
-![Demonstração de Testes com Netcat](./assets/04-netcat-port-check.gif)
-*Vídeo 4: Prova prática de que a porta 8080 está bloqueada externamente pelo Security Group.*
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/4.gif)
 
 ---
 
@@ -129,8 +127,7 @@ sudo tcpdump -i any -nn port 443
 sudo tcpdump -i any -nn port 443 -w captures/https-analysis.pcap
 ```
 
-![Demonstração de Captura tcpdump](./assets/05-tcpdump-capture.gif)
-*Vídeo 5: Execução do `tcpdump` interceptando o tráfego de rede e gerando a evidência `.pcap`.*
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/5.gif)
 
 ---
 
@@ -142,8 +139,7 @@ Abertura do arquivo `https-analysis.pcap` extraído da EC2 no Wireshark para aud
 - **TLS Handshake:** Visualização das mensagens `Client Hello` e `Server Hello`.
 - **Criptografia:** Comprovação de que o payload transmitido está cifrado (Application Data).
 
-![Demonstração de Análise no Wireshark](./assets/06-wireshark-analysis.gif)
-*Vídeo 6: Análise do fluxo de dados e pacotes no Wireshark.*
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/6.gif)
 
 ---
 
@@ -159,8 +155,7 @@ Abertura do arquivo `https-analysis.pcap` extraído da EC2 no Wireshark para aud
 5. **Resolução:** Reinstalação da regra no Security Group liberando tráfego `0.0.0.0/0:443`.
 6. **Validação Final:** `curl -I https://SEU_DOMINIO` *(Resultado: HTTP/1.1 200 OK)*.
 
-![Demonstração do Troubleshooting](./assets/07-troubleshooting-demo.gif)
-*Vídeo 7: Execução da esteira de diagnóstico e correção da falha de conectividade.*
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração)
 
 ---
 
