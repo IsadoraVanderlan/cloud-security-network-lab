@@ -1,4 +1,4 @@
-# 🛡️ AWS Cloud Security & Network Analysis Lab
+# 🛡️ Cloud Security & Network Analysis Lab
 
 > **Projeto Prático de Segurança em Nuvem, Análise de Rede e Troubleshooting**  
 > *Demonstração de competências técnicas em fundamentos de rede, hardening de segurança na AWS, captura de pacotes Linux e análise de tráfego.*
