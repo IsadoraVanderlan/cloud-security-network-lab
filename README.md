@@ -141,7 +141,7 @@ Abertura do arquivo `https-analysis.pcap` extraído da EC2 no Wireshark para aud
 5. **Resolução:** Reinstalação da regra no Security Group liberando tráfego `0.0.0.0/0:443`.
 6. **Validação Final:** `curl -I https://SEU_DOMINIO` *(Resultado: HTTP/1.1 200 OK)*.
 
-![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração)
+![Demonstração do Nginx e Reverse Proxy](./Videos%20Demonstração/7.gif)
 
 ---
 
