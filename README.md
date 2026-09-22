@@ -149,6 +149,7 @@ Abertura do arquivo `https-analysis.pcap` extraído da EC2 no Wireshark para aud
 
 * **LinkedIn:** [Isadora Vanderlan](https://www.linkedin.com/in/isadoravanderlan/) 
 
+---
 
 ## 🤝 Agradecimentos
 
