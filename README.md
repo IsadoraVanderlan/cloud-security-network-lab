@@ -30,15 +30,6 @@ Este laboratório demonstra a aplicação prática de **Network Security** em um
 
 ---
 
-## ⚙️ Tecnologias & Conceitos Aplicados
-
-- **Nuvem:** AWS (VPC, Subnet, Route Tables, Internet Gateway, EC2, Security Groups).
-- **Sistemas & Redes:** Linux (Ubuntu), TCP/IP, CIDR, Roteamento (`ip route`), Portas/Sockets (`ss`).
-- **Segurança & Servidor:** Nginx (Reverse Proxy), TLS/HTTPS, OpenSSL, Firewall Stateful.
-- **Análise & Diagnóstico:** `tcpdump`, `Wireshark`, `nc` (Netcat), `dig`, `curl`.
-
----
-
 ## 🚀 Demonstração Prática (Execução de Comandos)
 
 > *Abaixo estão demonstradas as validações operacionais diretamente no terminal Ubuntu da instância EC2, comprovando o domínio prático das ferramentas através dos vídeos de demonstração.*
