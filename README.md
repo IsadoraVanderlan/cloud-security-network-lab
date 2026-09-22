@@ -5,11 +5,6 @@
 
 ---
 
-## 📌 Visão Geral do Projeto
-
-Este laboratório demonstra a aplicação prática de **Network Security** em um ambiente **AWS Cloud**. O objetivo foi provisionar uma infraestrutura segura, configurar um servidor web Nginx protegido por HTTPS/TLS, atuar como **Reverse Proxy** e utilizar ferramentas avançadas de diagnóstico de rede no Linux (`tcpdump`, `ss`, `nc`, `dig`, `openssl`) para análise de pacotes com o **Wireshark**.
-
----
 
 ## 🏗️ Arquitetura do Laboratório
 
